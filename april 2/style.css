@@ -1,0 +1,13 @@
+/* CSS for Feedback Element */
+#feedback {
+  background-color: lightcoral;
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  /* position: absolute; */
+}
+.hidden {
+  display: none;
+}

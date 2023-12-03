@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="" class="score">View High score</a>
+        </div>
+        <div class="time">
+            Time: <span id="timer"></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h1>Coding Quiz Challenge</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In esse architecto dignissimos ex, aspernatur
+                labore asperiores quae perferendis eum quisquam.
+            </p>
+            <a href="#" id="start-quiz">Start Quiz</a>
+        </section>
+        <section class="quiz-container hidden" id="quiz-container">
+            <section id="quiz">
+                <!-- Quiz questions and options will be dynamically generated using JavaScript -->
+                <!-- HTML Structure for Displaying Feedback -->
+
+
+
+            </section>
+
+            <div id="feedback" class="hidden">
+                <p id="feedback-text"></p>
+            </div>
+        </section>
+
+
+        <section id="result" class="hidden">
+            <!-- Display quiz results and options to enter name for high score -->
+        </section>
+        <section id="high-scores" class="hidden">
+            <h2>High Scores</h2>
+            <ol id="high-scores-list"></ol>
+            <button id="clear-scores-button">Clear High Scores</button>
+            <a href="index.html">Go Back</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Coding Boot Camp</p>
+    </footer>
+
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+
+</html>
